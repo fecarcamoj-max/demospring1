@@ -13,7 +13,7 @@ public class HolaMundoController {
 
     @GetMapping("/")
     public String getMethodName() {
-        return "Hola Mundo!";
+        return "Hola Mundo 2!";
     }
 
     @GetMapping("/getCar")
