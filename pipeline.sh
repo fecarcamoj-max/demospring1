@@ -6,7 +6,7 @@ IMAGE_NAME="holamundo"
 CONTAINER_NAME="container-holamundo"
 PORT_HOST="8080"
 PORT_CONTAINER="8080"
-BRANCH="master"
+BRANCH="master" # Rama de repositorio...
 
 # Redirigir salida a un log para auditoría del cron
 exec >> /var/log/cicd_deploy.log 2>&1
